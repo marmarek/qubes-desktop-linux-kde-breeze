@@ -52,7 +52,7 @@ activeBackground=%d,%d,%d
 inactiveBackground=%d,%d,%d
 activeForeground=%d,%d,%d
 
-''' % (r, g, b, r, g, b, r / 2, g / 2, b / 2, active_foreground[0],
+''' % (r, g, b, r, g, b, r // 2, g // 2, b // 2, active_foreground[0],
        active_foreground[1], active_foreground[2]))
 
 
